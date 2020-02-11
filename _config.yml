@@ -6,7 +6,7 @@
 name: Jinone
 
 # Short bio or description (displayed in the header)
-description: SuperBoy
+description: 败絮其中
 
 #
 # Flags below are optional
@@ -41,7 +41,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: AWEEKJ/kiko-now
+  github: Jinone
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
   linkedin:
@@ -57,7 +57,7 @@ footer-text: © 2020 Kiko Now
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus:  blog-liwi0xbf2s.disqus.com
+disqus: blog-liwi0xbf2s.disqus.com
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
