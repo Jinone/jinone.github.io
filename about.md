@@ -10,3 +10,11 @@ permalink: /about/
 ### Contact me
 
 Welcome twitter(@jinonehk) DM me
+
+### Hall of Fame
+
+Hackerone https://hackerone.com/jin0ne
+Bugcrowd  https://bugcrowd.com/Jinone
+openbugbounty https://www.openbugbounty.org/researchers/Jinone/
+Informatica https://www.informatica.com/in/trust-center/security-researcher-hall-of-fame.html
+
