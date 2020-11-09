@@ -154,7 +154,7 @@ window.open("https://wacky.buggywebsite.com/frame.html?param=</title><input id='
 ```
 ###### Say no again
 [![](https://github.com/Jinone/123/raw/master/_posts/image2/E3DE688B-930C-46E4-8C59-58781D64DCE5.png)](https://github.com/Jinone/123/raw/master/_posts/image2/E3DE688B-930C-46E4-8C59-58781D64DCE5.png)
-`<iframe sandbox="allow-scripts allow-same-origin" class="invisible"></iframe>`
+`<iframe sandbox="allow-scripts allow-same-origin" class="invisible"></iframe>`<br>
 But the security of using `allow-scripts` `allow-same-origin` at the same time is very low<br>
 Because can manipulate the parent window.Just use the alert() of the parent window<br>
 Modify the content of `/files/analytics/js/frame-analytics.js` to `window.parent.alert(origin);`<br>
