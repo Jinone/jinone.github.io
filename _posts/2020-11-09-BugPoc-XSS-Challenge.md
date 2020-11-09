@@ -79,7 +79,7 @@ if (window.name == 'iframe') {
 ```
 After reading this js, I initially thought it would create an iframe and write a `<script src="files/analytics/js/frame-analytics.js">` in it
 [![](https://github.com/Jinone/123/raw/master/_posts/image2/FE25CC6A-0801-45CF-881C-872368008AF1.png)](https://github.com/Jinone/123/raw/master/_posts/image2/FE25CC6A-0801-45CF-881C-872368008AF1.png)
-I only need to inject the `<base>` tag, control the base-URL to my own domain , and upload a file `/files/analytics/js/frame-analytics.js`, load my own js.
+I only need to inject the `<base>` tag, control the base-URL to my own domain , and upload a file `/files/analytics/js/frame-analytics.js`, load my own js.<br>
 Use [bugpoc mock](https://bugpoc.com/testers/other/mock "bugpoc mock") to construct POC
 [![](https://github.com/Jinone/123/raw/master/_posts/image2/6EB8183A-F2A5-4723-835D-F42A3BF94C5B.png)](https://github.com/Jinone/123/raw/master/_posts/image2/6EB8183A-F2A5-4723-835D-F42A3BF94C5B.png)
 Then use  [Flexible Redirector](https://bugpoc.com/testers/other/redir "Flexible Redirector") for 302 redirection
