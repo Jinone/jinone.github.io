@@ -31,7 +31,7 @@ Because
 ```
 content-security-policy: script-src 'nonce-kplddkwaepak' 'strict-dynamic'; frame-src 'self'; object-src 'none';
 ```
-You can use [this](https://csp-evaluator.withgoogle.com/http:// "this") to check csp security
+You can use [this](https://csp-evaluator.withgoogle.com/ "this") to check csp security
 [![](https://github.com/Jinone/123/raw/master/_posts/image2/1D76462E-B4C3-4A56-BFCE-6B37377F507E.png)](https://github.com/Jinone/123/raw/master/_posts/image2/1D76462E-B4C3-4A56-BFCE-6B37377F507E.png)
 Missing base-uri allows the injection of base tags. They can be used to set the base URL for all relative (script) URLs to an attacker controlled domain<br>
 Just use the previously found html injection to inject `<base href="">`<br>
