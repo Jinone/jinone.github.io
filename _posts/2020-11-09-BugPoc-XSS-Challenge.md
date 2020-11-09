@@ -5,7 +5,6 @@ tags: [Xss]
 comments: true
 ---
 
-BugPoc XSS Challenge
 > I am not the one who solves this challenge quickly. After I got up, I saw that someone had submitted it 9 hours ago. But I learned something and some new thinking from this challenge, so I recorded it.Try to get the reward of the best blog.
 
 ### Challenge Details
