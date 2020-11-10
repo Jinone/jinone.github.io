@@ -143,7 +143,7 @@ To modify the value of `integrity` first,  must modify `fileIntegrity.value`.<br
 
 `window.fileIntegrity = window.fileIntegrity || {...}`<br>
 Seeing this, I thought that as long as I created a `window.fileIntegrity` using the previously discovered html injection,  could change the `fileIntegrity.value`<br>
-Due to the particularity of js language.For example,  `name` of `iframe`, `id` of `input`. In the unoccupied case, it will change from assignment to dom selector, so it can be used to hijack regular parameters (value href name id src ref..)Detail [DOM clobbering](https://portswigger.net/web-security/dom-based/dom-clobbering "DOM clobbering")<br>
+Due to the particularity of js language.For example,  `name` of `iframe`, `id` of `input`. In the unoccupied case, it will change from assignment to dom selector, so it can be used to hijack regular parameters (value href name id src ref..). Detail [DOM clobbering](https://portswigger.net/web-security/dom-based/dom-clobbering "DOM clobbering")<br>
 `<input id='fileIntegrity'  value='w7eu4SGHdqamrZE5Wi%2bayP8t7tuSBLDdoq4DQUxSpL8='>`   modify `fileIntegrity.value`<br>
 Payload
 ```
